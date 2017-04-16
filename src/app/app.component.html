@@ -15,9 +15,14 @@
     </div>
   </div>
   <div class="itemDetail">
-    <h1>Detail</h1>
-    <hr>
-    <img src="{{tech.logo}}">
-    <p>{{tech.name}}</p>
+    <div class="title">
+      <h1>
+        Detail
+      </h1>
+    </div>
+    <aside [ngStyle]="{'color':tech.color, background: tech.bgColor}">{{tech.name}}</aside>
+    <section>
+      <img src="{{tech.logo}}">
+    </section>
   </div>
 </div>

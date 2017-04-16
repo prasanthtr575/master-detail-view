@@ -10,16 +10,24 @@ export class AppComponent {
 
   techArr = [{
     "logo":"https://s3-us-west-2.amazonaws.com/svgporn.com/logos/html-5.svg",
-    "name":"HTML"
+    "name":"HTML",
+    "color":"#FFFFFF",
+    "bgColor":"#E44D26"
   },{
     "logo":"https://s3-us-west-2.amazonaws.com/svgporn.com/logos/css-3.svg",
-    "name":"CSS"
+    "name":"CSS",
+    "color":"#FFFFFF",
+    "bgColor":"#264DE4"
   },{
     "logo":"https://s3-us-west-2.amazonaws.com/svgporn.com/logos/javascript.svg",
-    "name":"JavaScript"
+    "name":"JavaScript",
+    "color":"#000000  ",
+    "bgColor":"#F7DF1E"
   },{
     "logo":"https://s3-us-west-2.amazonaws.com/svgporn.com/logos/angular-icon.svg",
-    "name":"Angular"
+    "name":"Angular",
+    "color":"#FFFFFF",
+    "bgColor":"#E23237"
   }];
 
   tech = this.techArr[0];
