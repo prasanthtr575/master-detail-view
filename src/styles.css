@@ -58,9 +58,37 @@ html, body {
 }
 
 aside {
-    display: inline-block;
     padding: 10px;
     font-weight: bold;
+}
+
+.rotate {
     transform: rotate(90deg);
     transform-origin: bottom left;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+.strip {
+    width: 38px;
+}
+
+.text-content {
+    flex: 1;
+    line-height: 15px;
+    text-align: justify;
+    padding: 30px;
+}
+
+.text-content img {
+    float: left;
+    margin-right: 30px; 
+}
+
+.text-content p.big {
+    line-height: 200%;
+    font-size: 20px;
 }

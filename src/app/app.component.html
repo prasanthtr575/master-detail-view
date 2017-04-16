@@ -20,9 +20,24 @@
         Detail
       </h1>
     </div>
-    <aside [ngStyle]="{'color':tech.color, background: tech.bgColor}">{{tech.name}}</aside>
-    <section>
-      <img src="{{tech.logo}}">
-    </section>
+    <div class="content">
+      <div class="strip" [ngStyle]="{'background': tech.bgColor}"> 
+        <aside [ngStyle]="{'color':tech.color}" class="rotate">{{tech.name}}</aside>
+      </div>
+      <div class="text-content">
+        <p class="big"> 
+        <img src="{{tech.logo}}">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi ante, sagittis luctus aliquam et, semper ac sem. Quisque accumsan mi a leo bibendum, vitae cursus urna accumsan. Pellentesque vel lectus condimentum, feugiat elit in, tincidunt dui. Proin ornare justo eget purus iaculis, vitae varius libero blandit. Quisque luctus elit condimentum urna semper, ut finibus ligula rhoncus. Fusce tristique pharetra dui eget convallis. Nullam varius nulla turpis, id elementum odio tincidunt id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc varius vel arcu id accumsan. Integer ornare nulla ac massa sagittis, id facilisis nisi suscipit. In pulvinar, erat at tempus tristique, mi dolor congue velit, in varius libero ante eu purus. Morbi et faucibus ex.
+
+Nullam luctus lacus purus, porttitor laoreet diam sollicitudin rhoncus. Nunc non ultrices enim. Vestibulum a neque lorem. Maecenas quis vulputate purus, nec condimentum nibh. In consequat erat elit, vitae tempor mi viverra vulputate. Proin vitae mattis mauris. Donec non ex nisi. Curabitur lobortis, ante eu elementum sodales, justo arcu condimentum odio, a tempus leo felis ultricies nisl. Nulla facilisi. Nulla vitae neque purus. Quisque lectus nisl, posuere nec mauris a, condimentum efficitur turpis. Cras commodo massa in consectetur tincidunt. Aliquam ante dolor, accumsan at rhoncus ut, bibendum eu felis. Donec feugiat aliquet nulla, pellentesque venenatis tortor ullamcorper id. Suspendisse tempus arcu sed lorem ornare, varius malesuada tellus posuere. Praesent in lectus ante.
+
+Donec varius ultricies neque at sodales. Mauris tincidunt mi vitae sollicitudin tempor. Nunc vel malesuada arcu. Morbi congue felis quam, sed posuere justo porttitor quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque at imperdiet dolor, at venenatis lectus. Vivamus non varius metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu tincidunt est. Donec suscipit condimentum leo nec aliquam.
+
+Mauris a gravida lacus. Quisque in lectus ultrices, cursus ex id, faucibus massa. Duis quis sapien sapien. Nullam fringilla gravida congue. Maecenas lobortis ornare molestie. Ut vehicula at nisi sit amet maximus. Mauris a tortor eu tortor dignissim aliquet.
+
+Suspendisse ac neque lorem. Morbi nec maximus libero, sed ultrices tortor. Nullam vitae sem a tellus pellentesque pellentesque at vitae est. Morbi iaculis felis at massa sagittis, ac placerat risus condimentum. Nulla id magna enim. In bibendum, augue at semper viverra, eros neque semper leo, non semper eros risus non augue. Donec accumsan est purus, non pharetra risus ullamcorper venenatis. Curabitur fringilla vulputate orci non tempor. Maecenas elementum est pharetra, malesuada mi at, faucibus massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec euismod, ex accumsan pretium tempus, felis sem iaculis tortor, et condimentum neque mauris vel libero. Quisque dictum orci at tellus scelerisque, et aliquam tortor dapibus. Pellentesque lobortis lacus ut augue consequat pellentesque. Cras metus purus, mollis eget condimentum eget, scelerisque nec sem.
+        </p>
+      </div>
+    </div>
   </div>
 </div>
