@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    border: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.flexContainer {
+    display: flex;
+    height: 100%;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid #9A9A9A;
+}
+
+.title {
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.list {
+    width: 320px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.itemDetail {
+    flex: 1;
+}
+
+.list ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list ol li {
+    border-bottom: dashed 1px #9A9A9A;
+    display: flex;
+}
+
+.logo img{
+    width: 40px;
+    height: 30px;
+    margin: 4px 2px 0px 15px;
+}
+
+.name {
+    flex:1;
+    padding: 10px 0px 0px 15px;
+}

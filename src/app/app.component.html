@@ -1,7 +1,23 @@
-<h1>
-  {{title}}
-</h1>
-<hr>
-<ol>
-  <li *ngFor="let item of techArr">{{item}}</li>
-</ol>
+<div class="flexContainer">
+  <div class="listContainer">
+    <div class="title">
+      <h1>
+        {{title}}
+      </h1>
+    </div>
+    <div class="list">
+      <ol>
+        <li *ngFor="let item of techArr" (click)="onSelect(item)">
+          <div class="logo"><img src="{{item.logo}}"></div>
+          <div class="name">{{item.name}}</div>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <div class="itemDetail">
+    <h1>Detail</h1>
+    <hr>
+    <img src="{{tech.logo}}">
+    <p>{{tech.name}}</p>
+  </div>
+</div>
