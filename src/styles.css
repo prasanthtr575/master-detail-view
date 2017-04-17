@@ -70,7 +70,7 @@ aside {
 
 .content {
     display: flex;
-    height: 100%;
+    height: 91.5%;
 }
 
 .strip {
@@ -82,6 +82,7 @@ aside {
     line-height: 15px;
     text-align: justify;
     padding: 30px;
+    overflow-y: auto;
 }
 
 .text-content img {
@@ -92,4 +93,5 @@ aside {
 .text-content p.big {
     line-height: 200%;
     font-size: 20px;
+    margin: 0px;
 }

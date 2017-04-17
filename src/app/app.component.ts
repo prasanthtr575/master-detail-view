@@ -43,6 +43,21 @@ export class AppComponent {
     "name":"Vue",
     "color":"#FFFFFF",
     "bgColor":"#41B883"
+  },{
+    "logo":"https://s3-us-west-2.amazonaws.com/svgporn.com/logos/aurelia.svg",
+    "name":"Aurelia",
+    "color":"#FFFFFF",
+    "bgColor":"#ED2C89"
+  },{
+    "logo":"https://s3-us-west-2.amazonaws.com/svgporn.com/logos/ember-tomster.svg",
+    "name":"Ember",
+    "color":"#FFFFFF",
+    "bgColor":"#C08A4C"
+  },{
+    "logo":"https://s3-us-west-2.amazonaws.com/svgporn.com/logos/bower.svg",
+    "name":"Bower",
+    "color":"#FFFFFF",
+    "bgColor":"#2BAF2B"
   }];
 
   tech = this.techArr[0];
